@@ -135,6 +135,8 @@ ClickHouse используется как:
 
 ## 3. Bitrix24 → ClickHouse (CRM)
 
+https://github.com/Sergeynikulin20/powerbi-analytics-dashboard/blob/main/src/bitrix/contacts_sync.py
+
 ### 3.1 Общий подход
 
 Для данных Bitrix24 реализована инкрементальная синхронизация:
