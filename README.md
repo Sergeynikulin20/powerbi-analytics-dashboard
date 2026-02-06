@@ -228,6 +228,10 @@ Google Sheets используется как гибкий управленче�
 
 👉 https://app.powerbi.com/view?r=eyJrIjoiMDFlMmMzNWEtYTNmMy00ZmM5LWFkMzktNzI4NmUxMjljN2RkIiwidCI6IjA0ZTdmY2ZmLTQ5NjUtNGJmMC1iOTA4LTI5NDU1NjRhY2VlZSIsImMiOjl9
 
+### Data pipeline / Источники
+
+https://github.com/Sergeynikulin20/powerbi-analytics-dashboard/blob/main/TECHNICAL_NOTES.md
+
  Автор
 
 Сергей Петроченко
