@@ -274,6 +274,16 @@ Power BI подключается к ClickHouse через **ODBC-драйвер
 Цель проекта — показать инженерное и аналитическое мышление,
 а не только реализацию отдельных скриптов.
 
+## Architecture Overview
+
+```text
+[1C / OData] ─┐
+               ├─> [Python ETL] → [ClickHouse] → [Power BI]
+[Bitrix24] ────┤        ↑
+[Google Sheets]┘   (facts & dimensions)
+```
+ClickHouse acts as a centralized analytical layer between operational systems and BI.
+
 ## Пример ETL: OData → ClickHouse (Контрагенты)
 
 Боевой ETL-скрипт для выгрузки справочника контрагентов из OData (1С / ERP)
